@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leaflet debug page</title>
+
+<!--  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY" async defer></script> -->
+	<script src="https://maps.googleapis.com/maps/api/js" async defer></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--  <link rel="stylesheet" href="../Leaflet/dist/leaflet.css" />
+	<script type="text/javascript" src="../Leaflet/dist/leaflet-src.js"></script>-->
+
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet-src.js"></script>
+
+	<script type="text/javascript" src="Leaflet.GoogleMutant.js"></script>
+	<style>
+	#map {
+/*    margin: 32px; */
+/*    width: auto; */
+/*    overflow: visible; */
+		width: calc( 100vw - 64px );
+		height: calc( 100vh - 64px );
+	}
+	body { margin: 0 }
+
+	</style>
+</head>
+<body>
+
+	
+
+	<div id="map" class="map"></div>
+
+	<script type="text/javascript">
+
+		-
+	</script>
+    
+    <script>
+        
+        <!--custom markers-->
+     
+         
+         
+        /* itp marker*/
+         
+    var customIconedu = L.icon({
+        iconUrl: 'markers/schoolicon.svg',
+        iconSize: [20, 20], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.10126, 73.13319], {icon: customIconedu}).addTo(map).bindPopup('<h4>ITP Abbottabad</h4><img src="images/locations/itp.png" width="120px">');
+        
+         
+         /*hazara university*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/uniicon.svg',
+        iconSize: [20, 20], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.427627, 73.250976], {icon: customIconedu}).addTo(map).bindPopup('<h4>Hazara University</h4><img src="images/locations/hazarauni.jpg" width="120px">');
+        
+        
+        
+        /*comsats university*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/uniicon.svg',
+        iconSize: [20, 20], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.197831, 73.246530], {icon: customIconedu}).addTo(map).bindPopup('<h4>Comsats University</h4><img src="images/locations/comsats.jpg" width="120px">');
+        
+        
+        
+        
+        
+        
+        /*abbottabad university*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/uniicon.svg',
+        iconSize: [20, 20], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.068695, 73.149522], {icon: customIconedu}).addTo(map).bindPopup('<h4>Abbottabad University</h4><img src="images/locations/atduni.jpg" width="120px">');
+        
+         
+         
+         
+
+
+       /* /*tourist places*/
+         
+         
+         /*fairy medow abbottabad*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/touristicon.svg',
+        iconSize: [30, 30], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.903858, 73.648780], {icon: customIconedu}).addTo(map).bindPopup('<p>Fairy Meadows Hotel </p><img src="images/locations/fairymedow.jpg" width="120px">');
+         
+         
+         /*Naran Hotel View*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/touristicon.svg',
+        iconSize: [30, 30], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.903953, 73.648796], {icon: customIconedu}).addTo(map).bindPopup('<p>Naran Hotel View</p><img src="images/locations/NaranHotelView.jpg" width="120px">');
+         
+    
+    /*Markazi jamia masjid naran*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/touristicon.svg',
+        iconSize: [30, 30], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.903944, 73.648392], {icon: customIconedu}).addTo(map).bindPopup('<p>Markazi jamia masjid naran </p><img src="images/locations/Markazijamiamasjidnaran.jpg" width="120px">');
+         
+    
+    /*Hotel Mount View*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/touristicon.svg',
+        iconSize: [30, 30], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.903775, 73.647770], {icon: customIconedu}).addTo(map).bindPopup('<p>Hotel Mount View </p><img src="images/locations/HotelMountView.jpg" width="120px">');
+         
+    
+    /*Islamabad Tourism Hotel*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/touristicon.svg',
+        iconSize: [30, 30], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.904815, 73.647848], {icon: customIconedu}).addTo(map).bindPopup('<p>Islamabad Tourism Hotel </p><img src="images/locations/IslamabadTourismHotel.jpg" width="120px">');
+    
+    
+    /*Royal Dream Hotel Naran*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/touristicon.svg',
+        iconSize: [30, 30], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.905343, 73.648356], {icon: customIconedu}).addTo(map).bindPopup('<p>Royal Dream Hotel Naran </p><img src="images/locations/RoyalDreamHotelNaran.jpg" width="120px">');
+    
+    
+    
+      /*HOTEL deMANCHI*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/touristicon.svg',
+        iconSize: [30, 30], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.906267, 73.650582], {icon: customIconedu}).addTo(map).bindPopup('<p>HOTEL deMANCHI </p><img src="images/locations/HOTELdeMANCHI.jpg" width="120px">');
+    
+    
+    
+    
+       
+         
+         
+   /*Punjab Tikka House*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/touristicon.svg',
+        iconSize: [30, 30], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.908207, 73.651982], {icon: customIconedu}).addTo(map).bindPopup('<p>Punjab Tikka House  Naran, Pakistan +92 343 8926122</p><img src="images/locations/PunjabTikkaHouse.jpg" width="120px">');
+    
+    /*Millennium Inn Hotel Naran*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/hotel.svg',
+        iconSize: [30, 30], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.908862, 73.651751], {icon: customIconedu}).addTo(map).bindPopup('<p>Millennium Inn Hotel Naran</p><P>Mansehra - Naran - Jalkhad - Chilas Rd, Near PTDC, Main Bazar، Naran, Pakistan  millenniuminn.com.pk  contact +92 343 9111804</p><img src="images/locations/MillenniumInnHotelNaran.jpg" width="120px">');
+         
+         
+         
+     /*Saif ul Malook Lake*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/touristicon.svg',
+        iconSize: [30, 30], // size of the icon
+        });
+
+    /*create marker object, pass custom icon as option, add to map   */      
+    var marker = L.marker([34.908898, 73.653022], {icon: customIconedu}).addTo(map).bindPopup('<p>Saif ul Malook Lake</p><img src="images/locations/SaifulMalookLake.jpg" width="120px">');  
+        
+         
+         
+         /*Faran Hotel Naran*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/touristicon.svg',
+        iconSize: [30, 30], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.908836, 73.656681], {icon: customIconedu}).addTo(map).bindPopup('<p>Faran Hotel Naran</p><img src="images/locations/FaranHotelNaran.jpg" width="120px">');  
+         
+        
+    
+    /*Pine Park Hotel & Restaurant*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/touristicon.svg',
+        iconSize: [30, 30], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.909126, 73.660779], {icon: customIconedu}).addTo(map).bindPopup('<p>Pine Park Hotel & Restaurant</p><img src="images/locations/PineParkHotel&Restaurant.jpg" width="120px">');  
+         
+    /*Trout Lodges*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/touristicon.svg',
+        iconSize: [30, 30], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.908695, 73.661841], {icon: customIconedu}).addTo(map).bindPopup('<p>Trout Lodges</p><img src="images/locations/TroutLodges.jpg" width="120px">');
+    
+    
+    
+    
+    
+    /*Grey Walls Mountain Huts & Cottages*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/touristicon.svg',
+        iconSize: [30, 30], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.908119, 73.663290], {icon: customIconedu}).addTo(map).bindPopup('<p>Grey Walls Mountain Huts & Cottages</p><img src="images/locations/GreyWallsMountainHutsCottages.jpg" width="120px">');
+    
+    
+    
+    /*Wild Oak Hotel Naran*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/touristicon.svg',
+        iconSize: [30, 30], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.906905, 73.666391], {icon: customIconedu}).addTo(map).bindPopup('<p>Wild Oak Hotel Naran</p><img src="images/locations/Wild Oak Hotel Naran.jpg" width="120px">');
+    
+    
+    
+    /*Fabssgo Hotel*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/touristicon.svg',
+        iconSize: [30, 30], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.906905, 73.666992], {icon: customIconedu}).addTo(map).bindPopup('<p>Fabssgo Hotel</p><img src="images/locations/Fabssgo Hotel.jpg" width="120px">');
+    
+  /*  Shelton Inn Hotel*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/touristicon.svg',
+        iconSize: [30, 30], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.906456, 73.669009], {icon: customIconedu}).addTo(map).bindPopup('<p>Shelton Inn Hotel</p><img src="images/locations/Shelton Inn Hotel.jpg" width="120px">');
+    
+    
+    
+    /*Lake Saiful Malook Hotel*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/touristicon.svg',
+        iconSize: [30, 30], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.884870, 73.694020], {icon: customIconedu}).addTo(map).bindPopup('<p>Lake Saiful Malook Hotel</p><img src="images/locations/LakeSaifulMalookHotel.jpg" width="120px">');
+    
+
+        
+      /*Bridge of Jheel Saif Ul Malook*/
+var customIconedu = L.icon({
+        iconUrl: 'markers/touristicon.svg',
+        iconSize: [30, 30], // size of the icon
+        });
+
+    // create marker object, pass custom icon as option, add to map         
+    var marker = L.marker([34.881649, 73.695222], {icon: customIconedu}).addTo(map).bindPopup('<p>Bridge of Jheel Saif Ul Malook</p><img src="images/locations/BridgeofJheelSaifUlMalook.jpg" width="120px">');  
+        </script>
+</body>
+</html>

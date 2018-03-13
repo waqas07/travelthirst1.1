@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg2" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:version="0.46" sodipodi:version="0.32" sodipodi:docname="transport_bus_station.svg" sodipodi:docbase="s:\Data\FacilityIcons" inkscape:output_extension="org.inkscape.output.svg.inkscape"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="38 -218 580 580"
+	 style="enable-background:new 38 -218 580 580;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#ED6B00;}
+</style>
+<sodipodi:namedview  gridtolerance="10.0" objecttolerance="10.0" guidetolerance="10.0" showgrid="false" id="base" inkscape:zoom="0.65172414" bordercolor="#666666" pagecolor="#ffffff" borderopacity="1.0" inkscape:cx="242.43387" inkscape:cy="186.81904" inkscape:window-x="-4" inkscape:window-y="-4" inkscape:window-height="1003" inkscape:pageopacity="0.0" inkscape:current-layer="svg2" inkscape:window-width="1400" inkscape:pageshadow="2">
+	</sodipodi:namedview>
+<defs>
+	
+	
+		<inkscape:perspective  sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 290 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="580 : 290 : 1" id="perspective3653" inkscape:persp3d-origin="290 : 193.33333 : 1">
+		</inkscape:perspective>
+	
+		<inkscape:perspective  sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 217.53 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="355.02399 : 217.53 : 1" id="perspective2512" inkscape:persp3d-origin="177.51199 : 145.02 : 1">
+		</inkscape:perspective>
+</defs>
+<g id="g2121">
+</g>
+<g>
+	<path class="st0" d="M327.1-143c0.5,0,1.1,0,1.6,0c0.5,0,1.1,0,1.6,0H327.1z"/>
+	<path class="st0" d="M438.6-123.2c-21.3-8.9-72.3-19.5-109.9-19.8c-37.6,0.3-88.6,10.9-109.9,19.8c-21.6,9-36,18-40.5,40.5
+		L162.2,41.9v171.7H190v26.9c0,32.8,48,32.8,48,0v-26.9h88.7h0.3h92.2v26.9c0,32.8,48.1,32.8,48.1,0v-26.9h27.9V41.9L479.1-82.8
+		C474.6-105.3,460.2-114.3,438.6-123.2z M260.2-111.5h66.9h70.1c13.5,0,13.5,20.2,0,20.2h-70.3h-66.7
+		C246.7-91.3,246.7-111.5,260.2-111.5z M214.1,159.8c-12.7,0-23.1-10.3-23.1-23s10.3-23.1,23.1-23.1s23,10.3,23,23.1
+		S226.8,159.8,214.1,159.8z M327.1,55H204.8c-12,0-14.5-8.6-13.3-17.3l12.6-90.4c1.7-11,5.4-18.2,19.7-18.2h103.1h106.6
+		c14.3,0,18,7.2,19.7,18.2l12.6,90.4c1.2,8.7-1.3,17.3-13.3,17.3H327.1z M443.3,159.8c-12.7,0-23.1-10.3-23.1-23
+		s10.3-23.1,23.1-23.1c12.7,0,23,10.3,23,23.1S456,159.8,443.3,159.8z"/>
+	<path class="st0" d="M530.6-130.1c-54-54-125.8-83.7-202.1-83.7s-148.1,29.7-202.1,83.7C72.4-76.1,42.6-4.3,42.6,72
+		s29.7,148.1,83.7,202.1c54,54,125.8,83.7,202.1,83.7c76.3,0,148.1-29.7,202.1-83.7c54-54,83.7-125.8,83.7-202.1
+		C614.3-4.3,584.6-76.1,530.6-130.1z M328.5,332.7C184.7,332.7,67.8,215.7,67.8,72s116.9-260.7,260.7-260.7
+		c143.7,0,260.7,116.9,260.7,260.7S472.2,332.7,328.5,332.7z"/>
+</g>
+</svg>

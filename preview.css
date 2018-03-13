@@ -1,0 +1,472 @@
+/* ==========================================================================
+   Global styles
+   ========================================================================== */
+
+small {
+  font-size: 80%;
+}
+
+
+a {
+  color: #555d5f;
+  outline:none;
+}
+
+a:hover {
+  color: #8A9CA0;
+  text-decoration: none;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+   outline:none;
+}
+
+.list-inline > li:first-child {
+    padding-left: 10px;
+}
+
+
+::selection {
+	background: #00C8D7; /* Safari */
+	color: #FFFFFF;
+}
+::-moz-selection {
+	background: #00C8D7; /* Firefox */
+	color: #FFFFFF;
+}
+
+/* Header bg */
+.sub_header {
+	position:relative;
+  	background-size: cover;
+ 	background-repeat: no-repeat;
+	background-position: center center;
+	
+   height:220px;
+   display: table;
+   width:100%;
+   font-size:20px;
+   color:#fff;
+}
+.sub_header div{
+	display: table-cell;
+   vertical-align: middle;
+	text-align:center;
+	padding:0 10%;
+}
+.sub_header h1{
+  font-size: 60px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+.sub_header.bg_1 {
+	background:#d14a60 url(img/pattern.png) repeat;
+}
+
+.rating_review {
+	color:#FC0;
+	margin-bottom:10px;
+	font-size:18px;
+}
+.review_box {
+	padding:20px;
+	background-color:#f8f8f8;
+	-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+min-height:170px;
+margin-bottom:30px;
+}
+/* ==============  Margins =====================*/
+
+.margin-0 {
+    margin-bottom: 0 !important;
+}
+.margin-10 {
+    margin-bottom: 10px !important;
+}
+.margin-15 {
+    margin-bottom: 15px !important;
+}
+.margin-20 {
+    margin-bottom: 20px !important;
+}
+.margin-30 {
+    margin-bottom: 30px !important;
+}
+.margin-40 {
+    margin-bottom: 40px !important;
+}
+.margin-50 {
+    margin-bottom: 50px !important;
+}
+.margin-60 {
+    margin-bottom: 60px !important;
+}
+.margin-70 {
+    margin-bottom: 70px !important;
+}
+.margin-80 {
+    margin-bottom: 80px !important;
+}
+.margin-90 {
+    margin-bottom: 90px !important;
+}
+.margin-100 {
+    margin-bottom: 100px !important;
+}
+
+
+
+
+
+
+
+/* ==========================================================================
+   Product styles
+   ========================================================================== */
+#product-title {
+  position: relative;
+  padding: 40px 0px 20px 0px;
+  background: #353d48;
+}
+
+#product-title h1 {
+  color: #FFFFFF;
+  font-size: 50px;
+  line-height: 48px;
+  font-weight: 400;
+  letter-spacing: -5px;
+  margin-top: 0px;
+}
+
+.product-price-details {
+    color: #FFFFFF;
+    font-size: 36px;
+    letter-spacing: 1px;
+    padding: 8px 18px;
+ 	font-family: "proxima_novasemibold", Arial, Helvetica, sans-serif; font-style:normal; font-weight:normal;
+}
+
+.details {
+  text-align: left;
+  padding-right: 20px;
+}
+
+
+.product-images {
+  margin-bottom: 50px;
+  padding-right: 40px;
+}
+
+.product-img-alt {
+  padding: 0px 0px 12px 0px;
+}
+
+
+
+
+
+#product-loop {
+  background: #FFFFFF;
+  padding: 60px 0px;
+}
+
+li.product-grid-item {
+  margin-bottom: 30px;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+.product-information {
+  padding: 12px; 
+font-family: "proxima_novasemibold", Arial, Helvetica, sans-serif; font-style:normal; font-weight:normal;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+
+
+
+/* ==========================================================================
+   Portfolio styles
+   ========================================================================== */
+#portfolio {
+  padding: 0px 0px 0px;
+  background: #353d48;
+  height: 300px;
+  overflow: hidden;
+}
+
+.thumbs {
+	padding: 0px;
+	float: left;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+.thumbs a {
+	background-color: #353D48;
+  bottom: -200px;
+  color: white;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  top: 0;
+  z-index: 100;
+}
+
+.thumbs a span.title {
+	display: table;
+	width: 95%;
+	height: 90%;
+	padding-left: 20px;
+}
+
+.thumbs a span.title span {
+	font-family: "proxima_novasemibold", Arial, Helvetica, sans-serif; font-style:normal; font-weight:normal;
+	font-size: 16px;
+	line-height: 17px;
+	color: #FFFFFF;
+	vertical-align: middle;
+	display: table-cell;
+	
+}
+
+.thumbs a span hr {
+  width: 35px;
+}
+
+.thumbs a:hover {
+	bottom: 0;
+  opacity: 1;
+  transition: opacity 0.30s ease-in-out 0s, bottom 0.4s cubic-bezier(0.25, 0.840, 0, 1) 0s;
+}
+
+ 
+
+
+/* ==========================================================================
+   Mobile styles
+   ========================================================================== */
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+
+h1 {
+  font-size: 40px;
+  line-height: 38px;
+  letter-spacing: -2px
+}
+
+h3 {
+  font-size: 19px;
+  line-height: 25px;
+  letter-spacing: -0.5px;
+}
+
+.header-container {
+  padding-top: 0px;
+}
+
+.header-info {
+  padding-top: 20px;
+}
+
+.carousel-indicators {
+  bottom: -40px;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.container {
+  text-align: center;
+}
+
+.container-responsive {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+li.product-grid-item {
+  padding:inherit;
+  display: block;
+}
+
+.product-price {
+  right: 0px;
+}
+
+.product-images {
+  padding-right: 15px;
+}
+
+.details {
+  padding-right: 0px;
+}
+
+#message h3 {
+  float: none;
+}
+#message .btn {
+  float: none;
+}
+
+#portfolio, #about {
+  height: 220px;
+}
+
+.cbp-so-side img {
+		max-width: 120%;
+	}
+	
+.cbp-so-side {
+	float: none;
+	width: 100%;
+}
+
+
+
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px) and (max-width: 767px) { 
+
+h1 {
+  font-size: 40px;
+  line-height: 38px;
+  letter-spacing: -2px
+}
+
+.container-responsive {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header-container {
+  padding-top: 0px;
+}
+
+.header-info {
+  padding-top: 20px;
+}
+
+.product-images {
+  padding-right: 15px;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+li.product-grid-item {
+  padding:inherit;
+  display: block;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.product-price {
+  right: 0px;
+}
+
+.details {
+  padding-right: 0px;
+}
+
+#message h3 {
+  float: none;
+}
+#message .btn {
+  float: none;
+}
+
+#portfolio, #about {
+  height: 220px;
+}
+
+
+
+}
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 991px) {
+.sub_header {
+   height:150px;
+}
+h1 {
+  font-size: 50px;
+  line-height: 48px;
+  letter-spacing: -5px
+}
+
+.header-container {
+  padding-top: 0px;
+}
+
+.header-info {
+  padding-top: 20px;
+}
+
+.product-images {
+  padding-right: 20px;
+}
+
+.product-price-details.sale > span {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.img-responsive {
+  margin: 0 auto;
+}
+
+#message h3 {
+  float: none;
+}
+#message .btn {
+  float: none;
+}
+
+#portfolio, #about {
+  height: 250px;
+}
+
+
+		
+}
+
+
+/* Desktops and laptops ----------- */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+h1 {
+  font-size: 50px;
+  line-height: 48px;
+  letter-spacing: -5px
+}
+
+.header-info {
+  padding-top: 100px;
+}
+
+}
+     
+
+/* Large screens ----------- */
+@media (min-width: 1201px) and (max-width: 2200px) {
+
+}   

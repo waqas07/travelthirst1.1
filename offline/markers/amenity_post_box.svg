@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg2" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:version="0.46" sodipodi:version="0.32" sodipodi:docname="post_box.svg" sodipodi:docbase="s:\Data\FacilityIcons" inkscape:output_extension="org.inkscape.output.svg.inkscape"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="38 -218 580 580"
+	 style="enable-background:new 38 -218 580 580;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:none;stroke:#757575;stroke-width:0.1;}
+	.st2{fill:#4F4F4F;}
+</style>
+<defs>
+	
+	
+		<inkscape:perspective  sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 290 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="580 : 290 : 1" id="perspective14" inkscape:persp3d-origin="290 : 193.33333 : 1">
+		</inkscape:perspective>
+</defs>
+<sodipodi:namedview  gridtolerance="10.0" objecttolerance="10.0" guidetolerance="10.0" showgrid="false" id="base" inkscape:zoom="0.92167712" bordercolor="#666666" pagecolor="#ffffff" borderopacity="1.0" inkscape:cx="64.539201" inkscape:cy="367.99332" inkscape:window-x="91" inkscape:window-y="25" inkscape:window-height="947" inkscape:pageopacity="0.0" inkscape:current-layer="svg2" inkscape:window-width="1048" inkscape:pageshadow="2">
+	</sodipodi:namedview>
+<g id="layer3" transform="matrix(48.14969,0,0,48.14969,-536.27327,-33.306752)" inkscape:label="Layout" class="st0">
+	<rect id="rect4134" x="1.8" y="-3.5" class="st1" width="10" height="10"/>
+	<rect id="rect4136" x="2.8" y="-2.5" class="st1" width="8" height="8"/>
+</g>
+<path class="st2" d="M137.2-75.6v292.3H522V-75.6H137.2z M474.8-48.1l-123,122.5c-6.1,6.1-13.8,9.2-23.1,9.2
+	c-9.6,0-17.7-3.2-24.1-9.7l-122-122H474.8z M164.2-29.3L264,71l-99.8,99.8V-29.3z M182,189.6l100.3-99.8l4.3,4.3
+	c11.6,11.3,25.6,16.9,42,16.9c16.4,0,30.2-5.6,41.5-16.9l4.3-4.3l100.3,99.8H182z M494.1,170.8L394.2,71l99.8-100.3V170.8z"/>
+</svg>

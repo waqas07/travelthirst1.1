@@ -1,0 +1,50 @@
+{
+  "name": "lrm-mapzen",
+  "version": "1.2.0",
+  "description": "Support for Turn By Turn by Mapzen in Leaflet Machine",
+  "main": "src/index.js",
+  "scripts": {
+    "dist": "./scripts/dist.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "leaflet",
+    "routing",
+    "valhalla",
+    "turn by turn",
+    "mapzen"
+  ],
+  "contributors": [
+    {
+      "name": "Kristen Diluca",
+      "github": "https://github.com/kdiluca"
+    }
+  ],
+  "author": "Hanbyul Jo <hanbyul@mapzen.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mapzen/lrm-mapzen.git"
+  },
+  "homepage": "https://github.com/mapzen/lrm-mapzen",
+  "bugs": {
+    "url": "https://github.com/mapzen/lrm-mapzen/issues"
+  },
+  "dependencies": {
+    "@mapbox/polyline": "0.2.0",
+    "@mapbox/corslite": "0.0.7"
+  },
+  "browserify-shim": {
+    "leaflet": "global:L"
+  },
+  "devDependencies": {
+    "browserify": "^8.1.3",
+    "browserify-shim": "^3.8.2",
+    "node-sass": "^4.5.3",
+    "uglify-js": "^2.4.16",
+    "uglifyify": "^3.0.1"
+  },
+  "directories": {
+    "example": "examples"
+  }
+}
